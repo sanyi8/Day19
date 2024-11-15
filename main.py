@@ -4,7 +4,6 @@ tim = Turtle()
 #tim.shape("turtle")
 screen = Screen()
 
-
 def move_forwards():
     tim.forward(10)
 
