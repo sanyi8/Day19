@@ -29,6 +29,5 @@ screen.bgcolor("azure3")
 # onkey method listens for space and than call move_forward()
 # screen.onkey(key="space", fun=move_forwards)
 
-
 # keep screen open
 screen.mainloop()
