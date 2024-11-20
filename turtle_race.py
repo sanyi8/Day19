@@ -11,7 +11,6 @@ user_bet = screen.textinput("Make your bet", "which turtle will win the race? Ye
 print(user_bet)
 y_start = -100  # starting y axle position
 
-# TODO - Create 6 turtles with the colors, and position them on the race line
 color_list = ["yellow", "green", "red", "blue", "purple", "orange"]
 all_turtles = []
 
