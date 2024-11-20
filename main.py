@@ -23,15 +23,12 @@ def clear():
     tim.home()
     tim.pendown()
 
-
 # keyboard setup
 screen.onkey(key = "w", fun = move_forwards)
 screen.onkey(key = "a", fun = move_left)
 screen.onkey(key = "s", fun = move_back)
 screen.onkey(key = "d", fun = move_right)
 screen.onkey(key = "c", fun = clear)
-
-
 
 screen.listen()
 screen.bgcolor("azure3")
