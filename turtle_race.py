@@ -14,13 +14,13 @@ y_start = -100  # starting y axle position
 color_list = ["yellow", "green", "red", "blue", "purple", "orange"]
 all_turtles = []
 
-## create objects from class with different attributes
+## create objects from class with different attributes (for trutles)
 for color in color_list:    # loop through each color in color list
     t_object = Turtle(shape="turtle")
     t_object.penup()
     t_object.color(color)
     t_object.goto(x=-230, y=y_start)
-    y_start += 30
+    y_start += 30   # spaces between turtles
     all_turtles.append(t_object)
 
 if user_bet:
@@ -38,7 +38,7 @@ while is_race_on:
             else:
                 print(f"You lost! The {winning_color} turtle is the winner!")
 
-        random_distance = random.randint(0,10)
+        random_distance = random.randint(0,15)
         turtle.forward(random_distance)
 
 screen.exitonclick()
